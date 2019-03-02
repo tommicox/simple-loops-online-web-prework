@@ -11,6 +11,9 @@ def loop_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 0
   loop do
+    puts phrase
+    answer = gets.chomp
+    break
 end
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
