@@ -12,8 +12,7 @@ def loop_iterator(number_of_times)
   counter = 0
   loop do
     counter += 1
-    answer = gets.chomp
-    break
+  break
 end
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
